@@ -1,2 +1,2 @@
 heroku ps:scale web=1
-web: gunicorn djangapp.wsgi:application --log-file -
+web: gunicorn YoutubeDownloader.wsgi:application --log-file -
